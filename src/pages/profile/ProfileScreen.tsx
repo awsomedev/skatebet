@@ -1,5 +1,5 @@
 import React, { useCallback, useMemo, useState } from "react";
-import { View, Text, StyleSheet, Image, FlatList } from "react-native";
+import { View, StyleSheet, FlatList } from "react-native";
 import theme from "../../styling/theme";
 import ProfileHeader from "./component/ProfileHeader";
 import PredictionHistoryItem from "./component/PredictionHistoryItem";
@@ -9,8 +9,8 @@ import Endpoints from "../../service/endpoints/endpoints";
 import { ITabs } from "../../components/tabs/Tabs";
 import { PredictionStorage } from "../../utils/predictionstorage";
 import { Prediction } from "../../types/prediction";
-import ProfileShimmer from "./shimmer";
 import { useSafeAreaInsets } from "react-native-safe-area-context";
+import ProfileShimmer from "./ProfileShimmer";
 
 const ProfileTabs: ITabs[] = [
   {

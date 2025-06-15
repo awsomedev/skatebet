@@ -1,3 +1,4 @@
+// TODO: Add theming support for app
 const lightTheme = {
   colors: {
     background: "#120E1B",
