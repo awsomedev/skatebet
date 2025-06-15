@@ -4,15 +4,21 @@
   "main": "index.ts",
   "scripts": {
     "start": "expo start",
-    "android": "expo start --android",
-    "ios": "expo start --ios",
+    "android": "expo run:android",
+    "ios": "expo run:ios",
     "web": "expo start --web"
   },
   "dependencies": {
+    "@react-navigation/native": "^7.1.11",
+    "@react-navigation/native-stack": "^7.3.15",
     "expo": "~53.0.11",
     "expo-status-bar": "~2.2.3",
-    "react": "19.0.0",
-    "react-native": "0.79.3"
+    "react": "18.2.0",
+    "react-native": "0.73.4",
+    "react-native-auto-skeleton": "^0.1.26",
+    "react-native-mmkv": "^3.2.0",
+    "react-native-safe-area-context": "^5.4.1",
+    "react-native-screens": "^4.11.1"
   },
   "devDependencies": {
     "@babel/core": "^7.25.2",
