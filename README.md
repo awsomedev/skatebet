@@ -121,15 +121,9 @@ The app is configured through `app.json` with the following settings:
 4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-## 📄 License
+## 📄 AI companions used
 
-This project is private and proprietary.
-
-## 👥 Authors
-
-- Your Name - Initial work
-
-## 🙏 Acknowledgments
-
-- Expo team for the amazing framework
-- React Native community for the excellent tools and libraries
+- Cursor as a coding assistant to speedup coding
+- Motiff and Stich(Google) for UI Component design and inspiration
+- Chatgpt for basic break down of tasks
+- ReadMe is entirely written by AI
